@@ -15,4 +15,36 @@ public class Property {
         this.sales = sales;
         this.priceLevel = priceLevel;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getDistance() {
+        return distance;
+    }
+
+    public void setDistance(Integer distance) {
+        this.distance = distance;
+    }
+
+    public Integer getSales() {
+        return sales;
+    }
+
+    public void setSales(Integer sales) {
+        this.sales = sales;
+    }
+
+    public Integer getPriceLevel() {
+        return priceLevel;
+    }
+
+    public void setPriceLevel(Integer priceLevel) {
+        this.priceLevel = priceLevel;
+    }
 }
